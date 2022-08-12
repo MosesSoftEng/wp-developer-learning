@@ -1,0 +1,15 @@
+[12-Aug-2022 08:56:11 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #5 ($domain) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\option.php on line 1112
+[12-Aug-2022 08:56:11 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #5 ($domain) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\option.php on line 1113
+[12-Aug-2022 08:56:11 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\formatting.php on line 2772
+[12-Aug-2022 08:56:11 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\formatting.php on line 2772
+[12-Aug-2022 08:56:11 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\formatting.php on line 2772
+[12-Aug-2022 08:56:11 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\formatting.php on line 2772
+[12-Aug-2022 08:56:11 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\formatting.php on line 2772
+[12-Aug-2022 08:56:15 UTC] Oracle database not available!
+[12-Aug-2022 08:56:16 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #5 ($domain) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\option.php on line 1112
+[12-Aug-2022 08:56:16 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #5 ($domain) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\option.php on line 1113
+[12-Aug-2022 08:56:16 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\formatting.php on line 2772
+[12-Aug-2022 08:56:16 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\formatting.php on line 2772
+[12-Aug-2022 08:56:16 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\formatting.php on line 2772
+[12-Aug-2022 08:56:16 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\formatting.php on line 2772
+[12-Aug-2022 08:56:16 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\Learning\wp-developer-learning\WordPress\wp-includes\formatting.php on line 2772
