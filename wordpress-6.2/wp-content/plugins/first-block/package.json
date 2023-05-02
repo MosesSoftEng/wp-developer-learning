@@ -18,5 +18,8 @@
 		"@wordpress/scripts": "^26.3.0",
 		"eslint": "^8.39.0",
 		"eslint-plugin-react": "^7.32.2"
+	},
+	"dependencies": {
+		"classnames": "^2.3.2"
 	}
 }
