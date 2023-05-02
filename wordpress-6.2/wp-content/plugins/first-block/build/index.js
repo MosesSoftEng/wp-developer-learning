@@ -127,7 +127,10 @@ function Edit(_ref) {
     attributes,
     setAttributes
   } = _ref;
-  const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.useBlockProps)();
+  // const blockProps = useBlockProps();
+  const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.useBlockProps)({
+    className: `has-text-align-${attributes.align}`
+  });
 
   // Event handler for richtext.
   const onChangeContent = newContent => {
@@ -325,7 +328,10 @@ function save(_ref) {
   let {
     attributes
   } = _ref;
-  const blockProps = _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps.save();
+  // const blockProps = useBlockProps.save();
+  const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)({
+    className: `has-text-align-${attributes.align}`
+  });
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("div", (0,_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, blockProps, {
     style: {
       textAlign: attributes.align,

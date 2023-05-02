@@ -50,7 +50,10 @@ import './editor.scss';
  * @return {WPElement} Element to render.
  */
 export default function Edit({attributes, setAttributes}) {
-	const blockProps = useBlockProps();
+	// const blockProps = useBlockProps();
+	const blockProps = useBlockProps({
+		className: `has-text-align-${attributes.align}`
+	});
 
 	// Event handler for richtext.
 	const onChangeContent = (newContent) => {

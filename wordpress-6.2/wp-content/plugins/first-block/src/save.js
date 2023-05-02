@@ -20,7 +20,10 @@ import {useBlockProps, RichText} from '@wordpress/block-editor';
  * @return {WPElement} Element to render.
  */
 export default function save({attributes}) {
-	const blockProps = useBlockProps.save();
+	// const blockProps = useBlockProps.save();
+	const blockProps = useBlockProps({
+		className: `has-text-align-${attributes.align}`
+	});
 
 	return (
 		<div
