@@ -82,7 +82,9 @@ export default function Edit({attributes, setAttributes}) {
 	};
 
 	return (
-		<div {...blockProps}>
+		<div
+			{...blockProps}
+			style={{backgroundColor: attributes.backgroundColor}}>
 			{/** UI displayed in settings panel */}
 			<InspectorControls>
 				<PanelColorSettings
@@ -133,8 +135,8 @@ export default function Edit({attributes, setAttributes}) {
 										: 'No rel nofollow'
 								}
 								checked={attributes.hasLinkNofollow}
-								onChange={toggleNofollow} 
-								/>
+								onChange={toggleNofollow}
+							/>
 						</fieldset>
 					</PanelRow>
 				</PanelBody>
@@ -160,7 +162,6 @@ export default function Edit({attributes, setAttributes}) {
 				placeholder={_('Write your text..')}
 				style={{
 					textAlign: attributes.align,
-					backgroundColor: attributes.backgroundColor,
 					color: attributes.textColor
 				}}
 			/>

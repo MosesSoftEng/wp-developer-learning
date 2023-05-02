@@ -23,7 +23,10 @@ export default function save({attributes}) {
 	const blockProps = useBlockProps.save();
 
 	return (
-		<div {...blockProps}>
+		<div
+			{...blockProps}
+			style={{textAlign: attributes.align, backgroundColor: attributes.backgroundColor, color: attributes.textColor}}
+		>
 			{/* Display static content */}
 			{/* <p {...useBlockProps.save()}>
 				{'First Block – hello from the saved content!'}
@@ -33,7 +36,7 @@ export default function save({attributes}) {
 			<RichText.Content
 				tagName="p"
 				value={attributes.content}
-				style={{textAlign: attributes.align, backgroundColor: attributes.backgroundColor, color: attributes.textColor}}
+				style={{textAlign: attributes.align, color: attributes.textColor}}
 			/>
 
 			{/* Display a external link */}
